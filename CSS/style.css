@@ -19,11 +19,13 @@ body{
     width: 375px;
     height: 80px;
     margin-bottom: 26px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05);
     display: flex;
     align-items: center;
     background-color: #FFFFFF;
     position: fixed;
 }
+
 .topo img{
     width: 75px;
     height: 53px;
@@ -36,10 +38,25 @@ body{
     margin-left: 213px;
 }
 
+.Mensagens{
+    width: 375px;
+    margin-top: 106px;
+}
+.aparecer{
+    width: 375px;
+    height: 40px;
+    margin-bottom: 4px;
+    border-radius: 2px;
+    background-color: #DCDCDC;
+    border-radius: 2px;
+
+}
+
 .baixo{
     margin-top: 587px;
     width: 375px;
     height: 80px;
+    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.05);
     background-color: #FFFFFF;
     display: flex;
     align-items: center;
@@ -56,5 +73,16 @@ body{
 .baixo ion-icon{
     width: 26px;
     height: 26px;
-    margin-left: 169px;
+    margin-left: 1px;
+}
+
+.baixo input {
+    border: 3px solid #FFFFFF;
+    box-sizing: border-box;
+    color: #1C1A22;
+    font-size: 18px;
+    margin: 0;
+    width: 330px;
+    height: 100%;
+    outline: none;
 }
